@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="819824f1-7c5c-43cf-9fb4-cfb63537ee05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Project UX/Project UX.xd" beforeDir="false" afterPath="$PROJECT_DIR$/../Project UX/Project UX.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="819824f1-7c5c-43cf-9fb4-cfb63537ee05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632942007050</updated>
       <workItem from="1632942008270" duration="599000" />
+      <workItem from="1632988668683" duration="90000" />
     </task>
     <servers />
   </component>
