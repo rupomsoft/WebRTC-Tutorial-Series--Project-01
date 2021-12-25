@@ -1,0 +1,11 @@
+.list-group{
+    background: #101528 !important;
+}
+.list-group-item{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 300;
+    font-size: 16px;
+    background: #101528  !important;
+    color: #ffffff !important;
+}

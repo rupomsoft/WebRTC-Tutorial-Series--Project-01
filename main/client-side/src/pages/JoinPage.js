@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-
+import TopNavBar from "../components/TopNavBar";
+import JoinForm from "../components/JoinForm";
 class JoinPage extends Component {
     render() {
         return (
             <div>
-                <h1>Join Page</h1>
+               <TopNavBar/>
+                <JoinForm/>
             </div>
         );
     }
 }
-
 export default JoinPage;

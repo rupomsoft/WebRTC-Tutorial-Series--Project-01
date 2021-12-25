@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #17182A !important;
+    overflow-x: hidden !important;
+}
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.center{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 300px;
+    height: 300px;
+}
+.card{
+    background: #1F263C !important;
+}
+.ct-flex-bottom{
+    margin-bottom: 50px !important;
+}
+.toast-text{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+}

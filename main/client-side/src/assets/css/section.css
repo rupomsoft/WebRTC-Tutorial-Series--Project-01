@@ -1,0 +1,12 @@
+.user-list-section{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #101528 !important;
+}
+
+.video-preview{
+    margin: 5px  !important;
+    border-radius: 5px !important;
+}

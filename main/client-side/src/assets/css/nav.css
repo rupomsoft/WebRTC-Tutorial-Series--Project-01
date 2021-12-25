@@ -1,0 +1,22 @@
+.bottom-nav-item:hover{
+    cursor: pointer;
+    font-size: 28px !important;
+    color: #54e07d !important;
+}
+.navbar{
+    background: #1F263C !important;
+}
+.bottom-navbar{
+    background: #1F263C !important;
+}
+.nav-icon{
+    width: 30px;
+}
+.nav-item{
+    color: #827bd8 !important;
+}
+.bottom-nav-item{
+    cursor: pointer;
+    font-size: 28px !important;
+    color: #827bd8 !important;
+}
