@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b05f76de-900d-4962-b6fe-ca242ffb9874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/Common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/SideNav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/images/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/images/nav.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-side/src/assets/images/teams.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/components/JoinForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/JoinForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/TopNavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/helper/SessionHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/helper/SessionHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/helper/ToastHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/helper/ToastHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/helper/ValidationHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/helper/ValidationHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/pages/JoinPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/pages/JoinPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +41,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640417291288</updated>
-      <workItem from="1640417310673" duration="4035000" />
+      <workItem from="1640417310673" duration="4667000" />
+      <workItem from="1640533396830" duration="181000" />
     </task>
     <servers />
   </component>
