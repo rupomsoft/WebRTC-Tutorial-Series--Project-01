@@ -15,6 +15,37 @@ app.get('*',function (req,res) {
 })
 
 
+let UserList=[];
+
+io.on('connection',function (socket) {
+
+    //Add New User
+    socket.on('CreateNewJoiner',function (user) {
+        UserList.push(user);
+        io.emit('AnnounceNewJoiner',user['Name']);
+        io.emit('UserList',UserList);
+        socket.PeerID=user['PeerID']
+    })
+
+
+    // Remove User
+    socket.on('disconnect',function (){
+        UserList.map((list,i)=>{
+            if(socket.PeerID===list['PeerID']){
+                UserList.splice(i,1);
+                io.emit('AnnounceLeftJoiner',user['Name']);
+                io.emit('UserList',UserList);
+            }
+        })
+    })
+
+})
+
+
+
+
+
+
 expressServer.listen(port,function () {
     console.log("Server Run @"+port)
 })

@@ -1,9 +1,61 @@
 import React, {Component, Fragment} from 'react';
 import TopNavBar from "../components/TopNavBar";
 import {Col, Container, Row} from "react-bootstrap";
-import {AiOutlineUser, FaRegUserCircle, FaVideo, MdMessage, TiMicrophone} from "react-icons/all";
+import { FaRegUserCircle, FaVideo, MdMessage, TiMicrophone} from "react-icons/all";
+import {getName} from "../helper/SessionHelper";
+import {Redirect} from "react-router";
+import io from 'socket.io-client'
+import {AnnouceLeftJoiner, AnnouceNewJoiner} from "../helper/ToastHelper";
+
+const socket=io.connect('/');
 
 class HomePage extends Component {
+
+    constructor() {
+        super();
+        this.state={
+            Redirect:false,
+        }
+    }
+    componentDidMount() {
+        if(!getName()){
+            this.setState({Redirect:true})
+        }
+    }
+    pageRedirect=()=>{
+        if(this.state.Redirect===true){
+            return(<Redirect to="/join"/>)
+        }
+    }
+
+
+
+
+
+
+    CreateNewJoiner=(PeerID)=>{
+        socket.emit('CreateNewJoiner',{'Name':getName(),'PeerID':PeerID})
+    }
+
+    AnnounceNewJoiner=()=>{
+        socket.on('AnnounceNewJoiner',(Name)=>{
+            AnnouceNewJoiner(Name+" has been joined");
+            window.speechSynthesis.speak(Name+" has been joined")
+        })
+    }
+
+
+    AnnounceLeftJoiner=()=>{
+        socket.on('AnnounceLeftJoiner',(Name)=>{
+            AnnouceLeftJoiner(Name+" has been left");
+            window.speechSynthesis.speak(Name+" has been left")
+        })
+    }
+
+
+
+
+
     render() {
         return (
             <Fragment>
@@ -66,6 +118,7 @@ class HomePage extends Component {
                         </Col>
                     </Row>
                 </Container>
+                {this.pageRedirect()}
             </Fragment>
         );
     }
